@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(20, 9, 245);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 1rem 4rem 1rem 4rem;
+}
+.mini-container h1{
+    font-family: sans-serif;
+    color: white;
+    padding-bottom: 2rem;
+}
+.mini-container input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    padding: .5rem;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.btn{
+    padding-top: 1rem;
+}
+.btn button{
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    /* padding: 1rem; */
+}
